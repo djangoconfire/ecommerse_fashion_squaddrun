@@ -38,6 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'ecommerse',
+    'core',
+    'missions',
+    'contractors',
+    'players',
+    'notifications',
 	
 ]
 

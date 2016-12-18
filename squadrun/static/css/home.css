@@ -103,24 +103,6 @@
     background: #ffffff;
   }*/
 
-/* heading style */
-
-.search-container .heading_tag{
-    text-align:center;
-    font-size:100px;
-    color:#f1c40f;
-    margin-top:140px;
-
-}
-
-.search-container .heading_ed{
-    text-align:center;
-    font-size:100px;
-    color:#e74c3c;
-    margin-top:20px;
-
-}
-
 .search_tag{
     margin-top:40px;
     min-width:100px;
