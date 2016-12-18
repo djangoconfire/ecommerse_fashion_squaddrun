@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load i18n %}
+
+{% block head %}
+    <link rel="stylesheet" href="{% static 'css/home.css'%}" type="text/css">
+{% endblock %}
+
+{% block js_block %}
+    <script src="{% static 'js/ecommerse.js' %}"></script>
+    <script src="{% static 'js/home.js'%}" type="text/javascript"></script>
+{% endblock %}
+
+
+{% block content %}
+    
+    <div class="container">
+        <div class="row">
+            
+            <!-- Submitting image to Api to predict tag accociated with images -->
+            <div class="col-sm-7">
+                <div class="image_submit_preview">
+                    <div class="col-sm-12">
+
+                       <div class="form-group">
+                            <label for="image">{% trans 'Upload Laptop Image and its accessories here ' %}</label>
+                            <input class="form-control" type="file" id="imageUrl" placeholder="Enter image url here" name="imageUrl">
+                        </div>
+                            <div class="form-group">
+                                <button id="submitBtn" class="btn btn-warning"><span class="glyphicon glyphicon-upload"></span>&nbsp;&nbsp;Submit Image</button>
+                            </div>
+                    
+                    </div>
+
+                    <!-- Image Preview -->
+                    <h2>Image Preview</h2>
+                    <img class="img-responsive" id="image" src="//i.imgur.com/O5RzPOu.png" alt="preview image">
+
+                </div>
+                <div class="tags-container" style="display:none;">
+                    <div class="col-sm-12">
+                        <legend><span class="label label-primary">Associated Tags</span></legend>
+                        <div class="well">
+                            <div class="row ">
+                                <div class="col-sm-12 tags">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-5">
+                <div id="search_tag">
+                    <em>When tags are found, they will be displayed here.</em>
+                </div>
+            </div>
+        </div>
+        
+            
+    </div>
+    
+{% endblock %}

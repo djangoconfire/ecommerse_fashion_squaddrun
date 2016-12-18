@@ -1,0 +1,142 @@
+.image_submit_preview{
+	margin-top:80px;
+}
+
+.tags-container{
+	margin-top:30px;
+}
+
+/* stylilng search bar */
+
+.search-container{
+	margin-top:80px;
+}
+
+.search-container .search-form {
+    background-color: #ffffff;
+    border:1px solid #ccc;
+    width: 400px;
+    height: 35px;
+    margin-left:40px;
+    border-radius: 4px;
+}
+
+.search-container .search-form .input-search {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 9px;
+    color:purple;
+}
+
+
+.search-container .search-form .button-search {
+    background-color: transparent;
+    border: none;
+    float: right;
+}
+
+
+.search-container .search-form .button-search .image-search {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+.box{
+  margin-left:100px;
+  
+}
+
+.search-container{
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+.search-container input#search{
+  width: 400px;
+  height: 50px;
+  border: none;
+  font-size: 16pt;
+  color: #262626;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  
+  -webkit-transition: all .55s ease;
+  -moz-transition: all .55s ease;
+  -ms-transition: all .55s ease;
+  -o-transition: all .55s ease;
+  transition: all .55s ease;
+  margin-left:10px;
+}
+
+.search-container input#search::-webkit-input-placeholder {
+   color: #65737e;
+}
+.search-container input#search:-moz-placeholder { /* Firefox 18- */
+   color: #65737e;  
+}
+.search-container input#search::-moz-placeholder {  /* Firefox 19+ */
+   color: #65737e;  
+}
+.search-container input#search:-ms-input-placeholder {  
+   color: #65737e;  
+}
+
+.search-container .icon{
+  position: absolute;
+  top: 50%;
+  margin-left: 17px;
+  margin-top: 17px;
+  z-index: 1;
+  color: #4f5b66;
+}
+
+  /* animation-effect */
+/*  .search-container input#search:focus, .search-container input#search:active{
+    outline:none;
+    background: #ffffff;
+  }*/
+
+/* heading style */
+
+.search-container .heading_tag{
+    text-align:center;
+    font-size:100px;
+    color:#f1c40f;
+    margin-top:140px;
+
+}
+
+.search-container .heading_ed{
+    text-align:center;
+    font-size:100px;
+    color:#e74c3c;
+    margin-top:20px;
+
+}
+
+.search_tag{
+    margin-top:40px;
+    min-width:100px;
+    min-height:60px;
+    border-radius:60px;
+    color:black;
+    border:1px solid #eee;
+    padding:20px;
+    margin-left:30px;
+    float:left;
+    font-size:20px;
+
+}
+.tag{
+  margin:10px auto 10px auto;
+}
+
+
+
